@@ -191,7 +191,7 @@ a:hover{
 .projects {
     background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(img/cover1.jpg);
     background-size: cover;
-    height: 110%;
+    height: 120%;
 
 }
 
