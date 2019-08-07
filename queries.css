@@ -1,0 +1,42 @@
+@media only screen and (max-width:1440px) {
+    .education {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .education {
+        height: 131%;
+}
+
+.cover {
+    margin-left: 50%;
+}
+
+@media only screen and (max-width: 1023px) {
+
+    .education {
+        height: 151%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .education {
+        height: 140%;
+}
+.nav-icon {
+    display: block;
+}
+.navbar-nav {
+ display: none;
+
+}
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+
+}
