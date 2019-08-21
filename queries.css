@@ -2,6 +2,7 @@
     .education {
         height: 100%;
     }
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -10,10 +11,11 @@
         height: 131%;
 }
 
+
 .cover {
     margin-left: 50%;
 }
-
+}
 @media only screen and (max-width: 1023px) {
 
     .education {
@@ -37,6 +39,36 @@
 }
 
 @media only screen and (max-width: 480px) {
+   
+
+  
+    .sidebar h1 {
+        font-size: 160%;
+    }
 
 
+    .about-text{
+        margin: 50% auto;
+        float: none;
+        width: 70%;
+        
+    }
+    .main-title{
+        font-size: 150%;
+        margin-bottom: -1%;
+        
+
+
+    }
+
+    .progress {
+        display: none;
+    }
+    .skills_h5 {
+       text-align: center;
+    }
+
+    .projects {
+        height: 160%;
+    }
 }
