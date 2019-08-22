@@ -23,7 +23,14 @@
 }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+
+    .about-text{
+        margin: 30% auto;
+        float: none;
+        width: 70%;
+        
+    }
     .education {
         height: 140%;
 }
@@ -34,11 +41,14 @@
  display: none;
 
 }
+.progress {
+    display: none;
+}
 
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 575px) {
    
 
   
@@ -48,7 +58,7 @@
 
 
     .about-text{
-        margin: 50% auto;
+        margin: 20% auto;
         float: none;
         width: 70%;
         
@@ -60,6 +70,15 @@
 
 
     }
+    .my-skills{
+        height: 130%;
+    }
+    .skills{
+        margin-left: 2.1%;
+    }
+    .education {
+        height: 150%;
+    }
 
     .progress {
         display: none;
@@ -69,6 +88,9 @@
     }
 
     .projects {
-        height: 160%;
+        height: 240%;
+    }
+    .main-timeline {
+        margin: auto 0;
     }
 }
