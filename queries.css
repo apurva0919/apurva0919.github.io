@@ -2,6 +2,10 @@
     .education {
         height: 100%;
     }
+    .about-me{
+       height: 108%
+        
+    }
 
 }
 
@@ -21,6 +25,20 @@
     .education {
         height: 151%;
 }
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .projects {
+        height: 140%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .projects {
+        height: 134%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -43,6 +61,10 @@
 }
 .progress {
     display: none;
+}
+
+.projects {
+    height: 150%;
 }
 
 
