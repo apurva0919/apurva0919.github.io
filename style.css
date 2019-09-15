@@ -469,10 +469,10 @@ a:hover{
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: -o-transform .8s;
-    transition: -moz-transform .8s;
-    transition: -ms-transform .8s;
-    transition: -webkit-transform .8s;
+    -o-transition: -o-transform .8s;
+    -moz-transition: -moz-transform .8s;
+    -ms-transition: -ms-transform .8s;
+    -webkit-transition: -webkit-transform .8s;
     transition: transform .8s;
     -o-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -528,4 +528,12 @@ a:hover{
       color: rgb(250, 250, 250);
       font-weight: bold;
       font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .temporary {
+      color: black;
+      font-weight: bold;
+      font-size: 12px;
+      height: 5px;
+      margin-left: 5px;
   }
