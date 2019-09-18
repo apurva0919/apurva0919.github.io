@@ -537,3 +537,17 @@ a:hover{
       height: 5px;
       margin-left: 5px;
   }
+
+
+
+  .cards {
+      display: flex;
+      flex-wrap: wrap;
+      color: black;
+  }
+  .cards >div {
+    margin: 10px;
+  }
+  .card-body > ul {
+      margin: 5px;
+  }
